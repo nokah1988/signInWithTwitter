@@ -10,8 +10,8 @@ class DB {
     public function __construct() {
         
         $host = 'localhost';
-        $user = 'root';
-        $password = '8se4738P';
+        $user = 'xxxxxxxxxxxxx';
+        $password = 'xxxxxxxxxxxxxxxx';
         $database = 'signInWithTwitter';       
         
         $this->mysqli = new mysqli($host, $user, $password, $database);
