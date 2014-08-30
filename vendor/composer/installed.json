@@ -1,0 +1,149 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.18",
+        "version_normalized": "1.0.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "shasum": ""
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-08-18 20:00:12",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "jublonet/codebird-php",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jublonet/codebird-php.git",
+            "reference": "2e7748539574e272de781d668e8637a484b5b673"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jublonet/codebird-php/zipball/2e7748539574e272de781d668e8637a484b5b673",
+            "reference": "2e7748539574e272de781d668e8637a484b5b673",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "ext-hash": "*",
+            "ext-json": "*",
+            "lib-openssl": "*"
+        },
+        "time": "2014-08-11 12:36:08",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "Joshua Atkins",
+                "email": "joshua.atkins@jublo.net",
+                "homepage": "http://atkins.im/",
+                "role": "Developer"
+            },
+            {
+                "name": "J.M.",
+                "email": "jm@jublo.net",
+                "homepage": "http://mynetx.net/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A Twitter library in PHP.",
+        "homepage": "http://www.jublo.net/projects/codebird/php",
+        "keywords": [
+            "api",
+            "networking",
+            "twitter"
+        ]
+    }
+]
