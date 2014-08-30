@@ -8,8 +8,8 @@ require_once 'app/classes/twitterAuth.php';
 $db = new DB; 
 
 
-$key    = 'cPrwqHdB3vwrTmuzCK1kGqcXn';
-$secret = 'Cta5CgEZjLCSsAs98BRDa9UPnfhBRwhL6pbztyaOssuhqcGLzT';
+$key    = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 \Codebird\Codebird::setConsumerKey($key, $secret);
 
 $client= \Codebird\Codebird::getInstance();
